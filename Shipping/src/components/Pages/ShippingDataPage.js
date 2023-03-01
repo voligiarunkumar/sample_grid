@@ -3,6 +3,7 @@ import ReceivedShipment from '../RecievedShipment/RecievedShipment';
 import ViewShipment from '../ViewShipment/ViewShipment';
 import WelcomePage from '../WelcomeShippingData/WelcomeShippingData';
 import SideNavBar from '../SidebarNavbar/SideNavBar.jsx';
+import Grids from '../Grid/Grid.jsx';
 const ShippingData=()=>{
   const [route, setRoute] = useState("null");
 
@@ -17,7 +18,7 @@ const ShippingData=()=>{
           }
         if (url == "/ViewShipment") {
           return (
-              <ViewShipment />
+              <Grids />
           );
           }
         else{
