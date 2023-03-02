@@ -1,7 +1,7 @@
 import React,{useState} from "react";
 import Logs from '../Logs/Logs';
 import Reports from '../Reports/Reports';
-import Orders from '../Orders/Orders';
+
 import WelcomePage from '../WelcomeVtracData/WelcomeVtracData';
 import SideNavBar from '../SidebarNavbar/SideNavBar.jsx';
 import Grids from '../Grid/Grid.jsx';
